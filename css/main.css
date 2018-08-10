@@ -766,7 +766,7 @@ header .logo a {
 
 
 
-#main-404-content {
+#main-content {
 	background: #151515;
 	width: 100%;
 	height: 100%;
@@ -783,13 +783,13 @@ header .logo a {
 	-ms-transition: transform 0.4s ease-in-out;
 	transition: transform 0.4s ease-in-out;
 }
-#main-404-content.menu-is-open {
+#main-content.menu-is-open {
 	-webkit-transform: translateX(-260px);
 	-ms-transform: translateX(-260px);
 	transform: translateX(-260px);
 }
 
-#main-404-content.main-content-static {
+#main-content.main-content-static {
 	background-image: url(../images/slides/oceanCoast.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -798,15 +798,15 @@ header .logo a {
 	background-size: cover;
 }
 
-#main-404-content.main-content-slides {
+#main-content.main-content-slides {
 	height: 100% !important;
 }
 
-#main-404-content.main-content-particle-js {
+#main-content.main-content-particle-js {
 	background: #020507;
 	overflow: hidden;
 }
-#main-404-content.main-content-particle-js .pg-canvas {
+#main-content.main-content-particle-js .pg-canvas {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -814,7 +814,7 @@ header .logo a {
 	width: 100% !important;
 	opacity: .15;
 }
-#main-404-content.main-content-particle-js .shadow-overlay {
+#main-content.main-content-particle-js .shadow-overlay {
 	display: none;
 }
 
@@ -903,7 +903,7 @@ header .logo a {
 	background: rgba(255, 255, 255, 0.1);
 	width: 100%;
 }
-#main-404-content footer {
+#main-content footer {
 	position: absolute;
 	width: 100%;
 	min-height: 12rem;
@@ -912,26 +912,26 @@ header .logo a {
 	z-index: 700;
 }
 
-#main-404-content .social-links {
+#main-content .social-links {
 	text-align: right;
 	margin-bottom: 3rem;
 }
-#main-404-content .social-links ul {
+#main-content .social-links ul {
 	display: block;
 	list-style: none;
 	margin: 0;
 	padding: 0;
 	font-size: 3rem;
 }
-#main-404-content .social-links ul li {
+#main-content .social-links ul li {
 	display: inline-block;
 	padding: 0 .9rem;
 }
-#main-404-content .social-links ul li:last-child {
+#main-content .social-links ul li:last-child {
 	padding-right: 0;
 }
 
-#main-404-content .bottom-links .links {
+#main-content .bottom-links .links {
 	display: block;
 	list-style: none;
 	margin: 0 0 .9rem 0;
@@ -939,33 +939,33 @@ header .logo a {
 	font-family: "roboto-bold", sans-serif;
 	font-size: 1.7rem;
 }
-#main-404-content .bottom-links .links:before,
-#main-404-content .bottom-links .links:after {
+#main-content .bottom-links .links:before,
+#main-content .bottom-links .links:after {
 	content: "";
 	display: table;
 }
-#main-404-content .bottom-links .links:after {
+#main-content .bottom-links .links:after {
 	clear: both;
 }
-#main-404-content .bottom-links li {
+#main-content .bottom-links li {
 	float: left;
 	padding: 0 1.2rem;
 }
-#main-404-content .bottom-links li:first-child {
+#main-content .bottom-links li:first-child {
 	padding-left: 0;
 }
-#main-404-content .bottom-links .credits {
+#main-content .bottom-links .credits {
 	font-size: 1.4rem;
 	line-height: 3rem;
 	color: rgba(255, 255, 255, 0.2);
 }
-#main-404-content .bottom-links .credits a {
+#main-content .bottom-links .credits a {
 	color: rgba(255, 255, 255, 0.2);
 	display: inline-block;
 	border-bottom: 1px dotted rgba(255, 255, 255, 0.1);
 }
-#main-404-content .bottom-links .credits a:hover,
-#main-404-content .bottom-links .credits a:focus {
+#main-content .bottom-links .credits a:hover,
+#main-content .bottom-links .credits a:focus {
 	color: #FFFFFF;
 }
 
@@ -980,16 +980,16 @@ header .logo a {
 	.main-content h1 {
 		font-size: 7.2rem;
 	}
-	#main-404-content .social-links {
+	#main-content .social-links {
 		text-align: left;
 	}
-	#main-404-content .social-links ul {
+	#main-content .social-links ul {
 		font-size: 2.8rem;
 	}
-	#main-404-content .social-links li:first-child {
+	#main-content .social-links li:first-child {
 		padding-left: 0;
 	}
-	#main-404-content .bottom-links .links {
+	#main-content .bottom-links .links {
 		font-size: 1.6rem;
 	}
 }
@@ -1002,7 +1002,7 @@ header .logo a {
 	.main-content h1 {
 		font-size: 5.5rem;
 	}
-	#main-404-content .social-links ul {
+	#main-content .social-links ul {
 		font-size: 2.6rem;
 	}
 }

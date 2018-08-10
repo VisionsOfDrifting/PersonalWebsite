@@ -13,7 +13,7 @@
 
    var toggleButton = $('.menu-toggle'),
        nav = $('#menu-nav-wrap'),
-       mainContent = $('#main-404-content'),
+       mainContent = $('#main-content'),
        mainHeader = $('.main-header');
 
 	toggleButton.on('click', function(e){

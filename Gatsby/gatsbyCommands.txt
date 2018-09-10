@@ -1,0 +1,14 @@
+# Some quick commands to get a Gatsby site going.
+# This is assuming you've already installed node.
+sudo npm i -g gatsby 				# Version 1.9.277 Stable, can run gatsby develop
+#sudo npm install --global gatsby-cli@next	# Install Gatsby
+gatsby new <site name> 				# Generate your website
+# After you cd into your new site you might see some security errors
+# You actually don't want to try to fix these, just check for the next release
+sudo npm install --global gatsby-cli@next
+
+cd <site name> 					# go into your new site folder
+gatsby develop					# start the development server
+npm i gatsby-source-filesystem gatsby-transformer-remark gatsby-plugin-catch-links
+gatshby build
+

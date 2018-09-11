@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'gatsby-link'
 
 import '../style/navbar.css'
 
@@ -12,37 +13,36 @@ const Navigation = () => {
         </label>
         <ul>
           <li>
-            <a href="#">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#">About</a>
+            <Link to="/about">About</Link>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <Link to="/contact">Contact</Link>
           </li>
-          <li>
-            <label htmlFor="menu-3">
-              Portfolio <span />
-            </label>
+          <li id="arrow-forward">
+            <label htmlFor="menu-3">Portfolio </label>
             <input
               id="menu-3"
               name="menu-3"
               className="menu-checkbox"
               type="checkbox"
             />
-            <div className="menu">
-              <label className="menu-toggle" htmlFor="menu-3">
-                <span>Toggle</span>
+            <div className="menu" id="arrow-back">
+              <label className="menu-toggle2" htmlFor="menu-3">
+                {' '}
+                Main Menu
               </label>
               <ul>
                 <li>
-                  <a href="#">Menu-3-1</a>
+                  <Link to="/portfolio">Portfolio Index</Link>
                 </li>
                 <li>
-                  <a href="#">Menu-3-3</a>
+                  <Link to="/portfolio">Mock Linkedin</Link>
                 </li>
                 <li>
-                  <a href="#">Menu-3-4</a>
+                  <Link to="/portfolio">Budget Trace</Link>
                 </li>
               </ul>
             </div>

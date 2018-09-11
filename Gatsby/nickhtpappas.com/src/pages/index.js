@@ -15,7 +15,7 @@ const IndexPage = () => (
       here along with links to the source code on github.
     </p>
     <p>You can get a copy of my resume here.</p>
-    <p> If I seem like a good match contact me. Let's build things together.</p>
+    <p> If I seem like a good match contact me. Let's build things together!</p>
     {/* <Link to="/page-2/">Go to page 2</Link> */}
   </div>
 )

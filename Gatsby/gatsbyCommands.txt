@@ -10,5 +10,23 @@ sudo npm install --global gatsby-cli@next
 cd <site name> 					# go into your new site folder
 gatsby develop					# start the development server
 npm i gatsby-source-filesystem gatsby-transformer-remark gatsby-plugin-catch-links
-gatshby build
+gatsby build
+
+#***********************************************#
+# When adding gatsby on your server make sure   #
+# you have at least 1GB of swap space or it     #
+# won't work. Also use the following command to #
+# handle pathPrefixes. Maybe write a script to  #
+# generate this easily. Do this in react too.   #
+#***********************************************#
+
+# In gastby-config.js
+module.exports = {
+  // Note: it must *not* have a trailing slash.
+  pathPrefix: `/<prefix>`,
+};
+
+# On build run
+gatsby build --prefix-paths
+
 

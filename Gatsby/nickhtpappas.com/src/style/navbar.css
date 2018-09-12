@@ -28,7 +28,7 @@ label:focus {
   right: 0;
   background: #111111;
   width: 240px;
-  height: 100%;
+  height: 125%;
   transform: translate3d(240px, 0, 0);
   transition: transform 0.35s;
 }
@@ -44,8 +44,6 @@ label:focus {
   padding: 0;
   text-indent: -9999px;
   background: #0c090a;
-  /* transform: translate3d(240px, 0, 0); */
-  transition: transform 0.35s;
 }
 
 .menu-toggle span {

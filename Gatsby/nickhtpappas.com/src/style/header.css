@@ -8,13 +8,21 @@
   #header-title {
     display: block;
     margin-right: 0rem;
-    line-height: 0.75;
+    line-height: 0.9;
     margin-bottom: 1rem;
+    padding-right: 40px;
   }
   h3#header-title {
     margin-bottom: 0rem;
+    padding-right: 66px;
   }
 }
+
+/* @media only screen and (min-width: 300px) {
+  #header-title {
+    padding-right: 60px;
+  }
+} */
 
 *:focus {
   outline: none;

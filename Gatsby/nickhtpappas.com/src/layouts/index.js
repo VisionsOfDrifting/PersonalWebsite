@@ -29,11 +29,20 @@ const Layout = ({ children, data }) => (
       css={{
         margin: '0 auto',
         maxWidth: 960,
-        padding: '3.45rem 1.0875rem 1.45rem',
+        padding: '0rem 1.0875rem 1.45rem',
+        position: 'relative',
+        top: '100px',
         '@media only screen and (max-width: 768px)': {
-          margin: '0 auto',
-          maxWidth: 960,
+          // margin: '0 auto',
+          // maxWidth: 960,
           padding: '4.45rem 1.0875rem 1.45rem',
+          top: '50px',
+        },
+        '@media only screen and (max-width: 376px)': {
+          // margin: '0 auto',
+          // maxWidth: 960,
+          // padding: '4.45rem 1.0875rem 1.45rem',
+          top: '100px',
         },
       }}
     >

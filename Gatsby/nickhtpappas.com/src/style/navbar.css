@@ -35,6 +35,7 @@ label:focus {
   height: 125%;
   transform: translate3d(240px, 0, 0);
   transition: transform 0.35s;
+  z-index: 110;
 }
 .menu label.menu-toggle {
   position: absolute;

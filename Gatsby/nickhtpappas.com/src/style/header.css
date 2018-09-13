@@ -1,0 +1,21 @@
+#header-title {
+  display: inline;
+  margin-right: 1rem;
+  /* margin-left: 0.25rem; */
+}
+
+@media only screen and (max-width: 768px) {
+  #header-title {
+    display: block;
+    margin-right: 0rem;
+    line-height: 0.75;
+    margin-bottom: 1rem;
+  }
+  h3#header-title {
+    margin-bottom: 0rem;
+  }
+}
+
+*:focus {
+  outline: none;
+}

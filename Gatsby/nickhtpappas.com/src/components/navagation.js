@@ -104,9 +104,9 @@ const Navigation = () => {
               color: '#fff',
             }}
           >
-            {window.location.href}
+            {/* {window.location.href}
             <br />
-            {window.location.pathname}
+            {window.location.pathname} */}
           </li>
         </ul>
       </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import '../style/header.css'
 
 const Header = ({ siteTitle }) => (
   <div
@@ -22,12 +23,17 @@ const Header = ({ siteTitle }) => (
         // width: '100%',
       }}
     >
-      <h1
+      {/* <Link
+        to="/"
         style={{
-          margin: 0,
-          // fontSize: '1.75rem',
+          color: 'white',
+          textDecoration: 'none',
         }}
       >
+        <h1 id="header-title">{siteTitle}</h1>
+        <h3 id="header-title">Fullstack Web Developer</h3>
+      </Link> */}
+      <h1 id="header-title">
         <Link
           to="/"
           style={{
@@ -38,6 +44,17 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
         </Link>
       </h1>
+      <h3 id="header-title">
+        <Link
+          to="/"
+          style={{
+            color: 'white',
+            textDecoration: 'none',
+          }}
+        >
+          Fullstack Web Developer
+        </Link>
+      </h3>
     </div>
   </div>
 )

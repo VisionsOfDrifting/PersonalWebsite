@@ -4,6 +4,8 @@ import Helmet from 'react-helmet'
 
 import Header from '../components/header'
 import Navigation from '../components/navagation'
+import Footer from '../components/footer'
+import 'font-awesome/css/font-awesome.min.css'
 import './index.css'
 
 const Layout = ({ children, data }) => (
@@ -18,13 +20,25 @@ const Layout = ({ children, data }) => (
     <Header siteTitle={data.site.siteMetadata.title} />
     <Navigation />
     <div
-      style={{
+      // id="top-margin"
+      // style={{
+      //   margin: '0 auto',
+      //   maxWidth: 960,
+      //   padding: '3.45rem 1.0875rem 1.45rem',
+      // }}
+      css={{
         margin: '0 auto',
         maxWidth: 960,
         padding: '3.45rem 1.0875rem 1.45rem',
+        '@media only screen and (max-width: 768px)': {
+          margin: '0 auto',
+          maxWidth: 960,
+          padding: '4.45rem 1.0875rem 1.45rem',
+        },
       }}
     >
       {children()}
+      {/* <Footer /> */}
     </div>
   </div>
 )

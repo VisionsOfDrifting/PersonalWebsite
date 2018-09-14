@@ -17,10 +17,12 @@ footer {
   color: #303030; */
   /* grid-row-start: 2;
   grid-row-end: 3; */
+  /* top: 70px; */
+  margin-top: -50px;
   height: 50px;
   font-size: 14px;
   text-align: center;
-  /* position: relative; */
+  position: relative;
 }
 /* 
 

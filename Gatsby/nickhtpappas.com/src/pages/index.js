@@ -9,14 +9,13 @@ const IndexPage = () => (
       <div className="columns center">
         <h2>Who I am</h2>
         <p className="centeredP">
-          I am a recent college graduate. I have been building websites for
-          small buisnesses, friends, and family for a few months now. Currently
-          I am seeking fulltime employement as a Web Developer in the Los
-          Angeles area.
+          I am a recent college graduate. I have been building websites as
+          freelance Web Developer since I graduated. Currently I am seeking
+          fulltime employement as a Web Developer in the Los Angeles area.
         </p>
         <br />
         <p className="centeredPc">
-          If you want to hire me or collaborate on projects{' '}
+          If you would like to hire me or collaborate{' '}
           <Link to="/contact">contact me</Link>.
         </p>
         <br />
@@ -38,7 +37,7 @@ const IndexPage = () => (
     </div>
     <div className="row">
       <div className="columns center">
-        <br />
+        {/* <br /> */}
         <h2>Tech that I use</h2>
         <p className="centeredP">
           Recently I have been using Node.js with Express on the back end and

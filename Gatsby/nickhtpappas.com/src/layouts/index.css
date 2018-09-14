@@ -630,8 +630,22 @@ pre tt:after {
   height: auto !important;
   height: 100%;
   margin: 0 auto -155px; */
-  /* min-height: calc(100vh - 70px); */
+  min-height: calc(100vh - 70px);
+  position: relative;
+  /* top: 100px; */
 }
+/* 
+@media only screen and (max-width: 768px) {
+  #wrapper {
+    top: 50px;
+  }
+}
+
+@media only screen and (max-width: 376px) {
+  #wrapper {
+    top: 100px;
+  }
+} */
 
 /* default
 --------------------------------------------------------------- */
@@ -668,7 +682,7 @@ pre tt:after {
 .column,
 .columns {
   position: relative;
-  padding: 0 20px;
+  /* padding: 0 20px; */
   min-height: 1px;
   float: left;
 }
@@ -846,7 +860,7 @@ pre tt:after {
     float: none;
     margin-left: 0;
     margin-right: 0;
-    padding: 0 30px;
+    /* padding: 0 30px; */
   }
   .row .row {
     width: auto;
@@ -938,6 +952,239 @@ a:focus {
   margin-left: 0;
 }
 
+/* Timeline */
+
+.timeline-wrap {
+  position: relative;
+  /* margin-top: 1.5rem;
+  margin-bottom: 6rem; */
+}
+.timeline-wrap::before {
+  content: '';
+  /* display: block; */
+  width: 22px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  right: 20%;
+  margin-right: -1.8rem;
+  /* left: 35%;
+  margin-left: -0.6rem; */
+  /* top: 0; */
+}
+.timeline-block {
+  position: relative;
+  /* padding-top: 1.5rem; */
+  height: 11.5rem;
+  margin-top: 2.5rem;
+}
+.timeline-ico {
+  height: 3rem;
+  /* 4.8rem; */
+  width: 3rem;
+  line-height: 2.8rem;
+  background: #313131;
+  /* border-radius: 50%; */
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  /* May be able to edit left and margin-left */
+  right: 20%;
+  top: -0.8rem;
+  margin-right: -2.66rem;
+  transform: rotate(45deg);
+}
+/* .timeline-ico2 {
+  height: 2.12rem;
+  width: 2.12rem;
+  line-height: 2.8rem;
+  background: #939393;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  left: 35%;
+  top: 0.45rem;
+  margin-left: -0.6rem;
+  transform: rotate(-45deg);
+} */
+.timeline-ico2 {
+  height: 1.62rem;
+  /* 4.8rem; */
+  width: 1.62rem;
+  line-height: 2.8rem;
+  background: #939393;
+  border-radius: 50%;
+  text-align: center;
+  color: #ffffff;
+  position: absolute;
+  /* May be able to edit left and margin-left */
+  right: 35%;
+  top: 0.65rem;
+  margin-right: -0.4rem;
+  transform: rotate(-45deg);
+}
+.timeline-ico i {
+  position: relative;
+  left: 0.1rem;
+  top: 0.1rem;
+  transform: rotate(-45deg);
+}
+
+.timeline-header {
+  /* float: left; */
+  float: right;
+  width: 35%;
+  /* padding-right: 90px; */
+  padding-left: 90px;
+  /* text-align: right; */
+  top: -16rem;
+  position: relative;
+}
+.timeline-content h3 {
+  margin-bottom: 0;
+}
+.timeline-content h2 {
+  font-size: 1.4rem;
+}
+.timeline-content p {
+  font-family: 'poppins-regular', sans-serif;
+  font-size: 1.4rem;
+  color: #888888;
+  line-height: 0.4;
+  display: inline;
+}
+#p-one {
+  float: left;
+}
+#p-two {
+  float: right;
+}
+
+.timeline-content {
+  /* margin-left: 35%;
+  padding-left: 60px; */
+  margin-right: 27.5%;
+  padding-right: 3rem;
+}
+.timeline-content h4 {
+  position: relative;
+  padding-top: 0.35rem;
+  padding-bottom: 0rem;
+  /* 1.8rem; */
+}
+.timeline-content::after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 14rem;
+  /* 18rem */
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .timeline-header {
+    /* padding-right: 50px; */
+    /* padding-left: 50px; */
+  }
+  .timeline-header h3 {
+    font-size: 1rem;
+  }
+  .timeline-content p {
+    font-size: 1.2rem;
+  }
+  .timeline-content {
+    /* padding-left: 50px; */
+    padding-right: 50px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #p-two {
+    float: left;
+  }
+  .timeline-block {
+    position: relative;
+    /* padding-top: 1.5rem; */
+    height: 21.5rem;
+    margin-top: 2.5rem;
+  }
+  .timeline-wrap::before {
+    right: 4.5rem;
+    /* left: 2.4rem; */
+  }
+  .timeline-ico2 {
+    right: 1rem;
+    top: 0.7rem;
+  }
+  .timeline-ico {
+    right: 4.5rem;
+  }
+  .timeline-header {
+    float: none;
+    width: auto;
+    padding-right: 15px;
+    text-align: left;
+  }
+  .timeline-header h3 {
+    font-size: 2rem;
+  }
+  .timeline-content p {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 0.8;
+  }
+  .timeline-content {
+    margin: 0;
+  }
+  .timeline-content h4 {
+    padding-bottom: 0;
+    padding-top: 1.1rem;
+    margin-bottom: 1.1rem;
+    font-size: 1.2rem;
+  }
+  .timeline-header,
+  .timeline-content {
+    padding-right: 8rem;
+    /* padding-left: 7rem; */
+  }
+}
+@media only screen and (max-width: 480px) {
+  .resume-header h2 {
+    font-size: 2.2rem;
+  }
+  .timeline-wrap::before {
+    right: 5rem;
+  }
+  .timeline-ico {
+    height: 3.6rem;
+    width: 3.6rem;
+    line-height: 3.6rem;
+    right: 5rem;
+    margin-right: -2.8rem;
+    font-size: 1.5rem;
+  }
+  .timeline-ico2 {
+    right: 1.1rem;
+    top: 0.7rem;
+    height: 2.2rem;
+    width: 2.2rem;
+  }
+  .timeline-header,
+  .timeline-content {
+    padding-right: 11.5rem;
+    padding-left: 1.5rem;
+  }
+  .timeline-content h2 {
+    word-wrap: normal;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .timeline-content::after {
+    display: none;
+  }
+}
 /* Extras for centering */
 .center {
   /* width: 80%; */
@@ -953,18 +1200,38 @@ a:focus {
 .centeredP {
   text-align: justify;
   /* padding-top: 6rem; */
-  width: 80%;
+  /* width: 90%; */
   /* 80%; */
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .centeredPc {
   text-align: center;
   /* padding-top: 6rem; */
-  width: 70%;
+  /* width: 80%; */
   /* 80%; */
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
+
+/* Remove this for phones 
+   Edit row/columns for phone too
+   Do a media query from like 768 to 1000 or 1200 to match desktop screens better
+*/
+/* @media only screen and (max-width: 980px) {
+  .centeredP {
+    text-align: justify;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+  }
+
+  .centeredPc {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 0.5rem;
+  }
+} */
 
 /* For the download button */
 

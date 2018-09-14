@@ -43,20 +43,15 @@ const Contact = () => (
           </li>
         </ul>
       </div>
-      {/* <div className="row"> More stuff</div> */}
-      <p className="centeredP">
-        If you are interested in hiring me or would like to colaborate on
-        present or future projects contact me. Feel free to send me an email or
-        message me on Linkedin.
-      </p>
-      {/* <div className="row">
-      <div className="columns cenetered">
+    </div>
+    <div className="row">
+      <div className="columns">
         <p className="centeredP">
-          If you would like to colaborate on present or future projects contact
-          me. Feel free to send me an email or message me on Linkedin.
+          If you are interested in hiring me or would like to colaborate on
+          present or future projects contact me. Feel free to send me an email
+          or message me on Linkedin.
         </p>
       </div>
-    </div> */}
     </div>
   </div>
 )

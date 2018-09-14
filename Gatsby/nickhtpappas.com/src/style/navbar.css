@@ -31,15 +31,16 @@ label:focus {
   top: 0;
   right: 0;
   background: #111111;
-  width: 240px;
+  width: 200px;
+  /* 240px; */
   height: 125%;
-  transform: translate3d(240px, 0, 0);
+  transform: translate3d(200px, 0, 0);
   transition: transform 0.35s;
   z-index: 110;
 }
 .menu label.menu-toggle {
   position: absolute;
-  right: 240px;
+  right: 200px;
   width: 60px;
   height: 60px;
   /* margin-top: 20px;

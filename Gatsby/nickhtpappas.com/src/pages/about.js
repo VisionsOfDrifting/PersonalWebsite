@@ -88,21 +88,119 @@ const About = () => (
       think that hybrid app Frameworks are important tools that are going to
       become widespread in the next few years as they update the technology.
     </p> */}
-    <div className="row">
-      <div className="columns twelve">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum cum
-          quisquam accusantium eveniet maiores nostrum? Assumenda, dolore illum.
-          Debitis repudiandae dicta ipsum? Illum itaque atque omnis velit
-          dignissimos nulla tempore quas repellendus doloremque rerum nisi fugit
-          laudantium porro reprehenderit, explicabo modi amet? Blanditiis
-          praesentium, eveniet ratione nostrum mollitia harum provident voluptas
-          quasi ullam ipsum explicabo rem. Accusamus, quaerat quam inventore
-          quis perferendis quod nam nulla odio magni, fuga qui autem doloremque
-          quidem? A debitis, facilis ut ducimus ullam voluptates culpa mollitia
-          quos officia quaerat vitae neque cumque quam nemo qui porro sunt
-          voluptatibus quas veritatis aliquam optio dicta. Soluta, dolorem!
-        </p>
+    <div className="Grid Grid--full u-textCenter">
+      <div className="Grid-cell Grid-cell-tech">
+        <div className="Demo">
+          <h2>Technologies</h2>
+          <h4>Languages. Libraries. Tools. Frameworks.</h4>
+          <div className="Grid Grid--gutters-tech Grid--cols-3">
+            <div className="Grid-cell Grid-cell-tech">
+              <div className="Demo">
+                <h4>Front End</h4>
+                <div className="Grid Grid--gutters-tech Grid--cols-3">
+                  <div className="Grid-cell Grid-cell-tech">
+                    <div className="Demo">
+                      <h6>React</h6>
+                    </div>
+                  </div>
+                  <div className="Grid-cell Grid-cell-tech">
+                    <div className="Demo">
+                      <h6>Redux</h6>
+                    </div>
+                  </div>
+                  <div className="Grid-cell Grid-cell-tech">
+                    <div className="Demo">
+                      <h6>Jquery</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="Grid-cell Grid-cell-tech">
+              <div className="Demo">
+                <h4>Back End</h4>
+                <div className="Grid Grid--gutters-tech Grid--cols-3">
+                  <div className="Grid-cell Grid-cell-tech">
+                    <div className="Demo">
+                      <h6>Node</h6>
+                    </div>
+                  </div>
+                  <div className="Grid-cell Grid-cell-tech">
+                    <div className="Demo">
+                      <h6>Express</h6>
+                    </div>
+                  </div>
+                  <div className="Grid-cell Grid-cell-tech">
+                    <div className="Demo">
+                      <h6>MongoDB</h6>
+                    </div>
+                  </div>
+                </div>
+                <div className="Grid Grid--gutters-tech Grid--cols-3">
+                  <div className="Grid-cell Grid-cell-tech">
+                    <div className="Demo">
+                      <h6>MySQL</h6>
+                    </div>
+                  </div>
+                  <div className="Grid-cell Grid-cell-tech">
+                    <div className="Demo">
+                      <h6>PostgreSQL</h6>
+                    </div>
+                  </div>
+                  <div className="Grid-cell Grid-cell-tech">
+                    <div className="Demo">
+                      <h6>Firebase</h6>
+                    </div>
+                  </div>
+                  <div className="Grid-cell Grid-cell-tech">
+                    <div className="Demo">
+                      <h6>PHP</h6>
+                    </div>
+                  </div>
+                  <div className="Grid-cell Grid-cell-tech">
+                    <div className="Demo">
+                      <h6>Bash</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="Grid-cell Grid-cell-tech">
+              <div className="Demo">
+                <h4>Other Tools</h4>
+                <div className="Grid Grid--gutters-tech Grid--cols-3">
+                  <div className="Grid-cell Grid-cell-tech">
+                    <div className="Demo">
+                      <h6>Git</h6>
+                    </div>
+                  </div>
+                  <div className="Grid-cell Grid-cell-tech">
+                    <div className="Demo">
+                      <h6>Docker</h6>
+                    </div>
+                  </div>
+                  <div className="Grid-cell Grid-cell-tech">
+                    <div className="Demo">
+                      <h6>Github</h6>
+                    </div>
+                  </div>
+                </div>
+                <div className="Grid Grid--gutters-tech Grid--cols-3">
+                  <div className="Grid-cell Grid-cell-tech">
+                    <div className="Demo">
+                      <h6>Google Cloud</h6>
+                    </div>
+                  </div>
+                  <div className="Grid-cell Grid-cell-tech">
+                    <div className="Demo">
+                      <h6>AWS</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

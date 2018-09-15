@@ -53,6 +53,35 @@ const Contact = () => (
         </p>
       </div>
     </div>
+    {/* <div className="Grid Grid--full u-textCenter">
+      <div className="Grid-cell">
+        <div className="Demo">
+          <h2>Contact Details</h2>
+          <div className="Grid Grid--gutters Grid--3">
+            <div className="Grid-cell">
+              <div className="Demo" />
+            </div>
+            <div className="Grid-cell">
+              <div className="Demo" />
+            </div>
+            <div className="Grid-cell">
+              <div className="Demo" />
+            </div>
+          </div>
+          <div className="Grid Grid--gutters Grid--cols-12">
+            <div className="Grid-cell">
+              <div className="Demo" />
+            </div>
+            <div className="Grid-cell">
+              <div className="Demo" />
+            </div>
+            <div className="Grid-cell">
+              <div className="Demo" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> */}
   </div>
 )
 

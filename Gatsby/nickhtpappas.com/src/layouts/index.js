@@ -9,7 +9,7 @@ import 'font-awesome/css/font-awesome.min.css'
 import './index.css'
 
 const Layout = ({ children, data }) => (
-  <div id="wrapper">
+  <div id="">
     <Helmet
       title={data.site.siteMetadata.title}
       meta={[
@@ -20,6 +20,7 @@ const Layout = ({ children, data }) => (
     <Header siteTitle={data.site.siteMetadata.title} />
     <Navigation />
     <div
+      className="content"
       // id="top-margin"
       // style={{
       //   margin: '0 auto',
@@ -47,8 +48,8 @@ const Layout = ({ children, data }) => (
       }}
     >
       {children()}
-      {/* <Footer /> */}
     </div>
+    {/* <Footer /> */}
   </div>
 )
 

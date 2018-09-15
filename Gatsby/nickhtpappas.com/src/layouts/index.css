@@ -959,6 +959,9 @@ a:focus {
   /* margin-top: 1.5rem;
   margin-bottom: 6rem; */
 }
+.timeline-wrap:last-child {
+  margin-bottom: 4rem;
+}
 .timeline-wrap::before {
   content: '';
   /* display: block; */
@@ -1029,17 +1032,6 @@ a:focus {
   top: 0.1rem;
   transform: rotate(-45deg);
 }
-
-.timeline-header {
-  /* float: left; */
-  float: right;
-  width: 35%;
-  /* padding-right: 90px; */
-  padding-left: 90px;
-  /* text-align: right; */
-  top: -16rem;
-  position: relative;
-}
 .timeline-content h3 {
   margin-bottom: 0;
 }
@@ -1048,7 +1040,7 @@ a:focus {
 }
 .timeline-content p {
   font-family: 'poppins-regular', sans-serif;
-  font-size: 1.4rem;
+  font-size: 1rem;
   color: #888888;
   line-height: 0.4;
   display: inline;
@@ -1085,10 +1077,6 @@ a:focus {
 }
 
 @media only screen and (max-width: 1024px) {
-  .timeline-header {
-    /* padding-right: 50px; */
-    /* padding-left: 50px; */
-  }
   .timeline-header h3 {
     font-size: 1rem;
   }
@@ -1121,18 +1109,10 @@ a:focus {
   .timeline-ico {
     right: 4.5rem;
   }
-  .timeline-header {
-    float: none;
-    width: auto;
-    padding-right: 15px;
-    text-align: left;
-  }
-  .timeline-header h3 {
-    font-size: 2rem;
-  }
   .timeline-content p {
-    font-size: 1.5rem;
-    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    margin-bottom: 1.25rem;
+    margin-right: 2.6rem;
     line-height: 0.8;
   }
   .timeline-content {
@@ -1144,7 +1124,6 @@ a:focus {
     margin-bottom: 1.1rem;
     font-size: 1.2rem;
   }
-  .timeline-header,
   .timeline-content {
     padding-right: 8rem;
     /* padding-left: 7rem; */
@@ -1154,6 +1133,9 @@ a:focus {
   .resume-header h2 {
     font-size: 2.2rem;
   }
+  /* .timeline-wrap {
+    height: 40rem;
+  } */
   .timeline-wrap::before {
     right: 5rem;
   }
@@ -1171,20 +1153,33 @@ a:focus {
     height: 2.2rem;
     width: 2.2rem;
   }
-  .timeline-header,
+  .timeline-content p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    margin-right: 2.8rem;
+    line-height: 1.4;
+  }
   .timeline-content {
-    padding-right: 11.5rem;
+    padding-right: 8.5rem;
     padding-left: 1.5rem;
   }
   .timeline-content h2 {
     word-wrap: normal;
   }
 }
-@media only screen and (max-width: 460px) {
+@media only screen and (max-width: 411px) {
+  .timeline-wrap {
+    height: 60rem;
+  }
+  .timeline-block {
+    height: 25rem;
+    margin-top: 2rem;
+  }
   .timeline-content::after {
     display: none;
   }
 }
+
 /* Extras for centering */
 .center {
   /* width: 80%; */

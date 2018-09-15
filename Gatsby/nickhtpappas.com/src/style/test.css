@@ -1,0 +1,46 @@
+.Box {
+  padding: 0.5em 0.5em 0;
+  margin-bottom: 0.5em;
+  background: rgba(51, 153, 204, 0.2);
+  transition: background-color 0.3s ease;
+  border: 1px solid #33cccc;
+  border-radius: 3px;
+  /* width: 33%; */
+}
+.middleBox {
+  padding: 0.5em 0.5em 0;
+  margin-bottom: 0.5em;
+  background: rgba(51, 153, 204, 0.2);
+  transition: background-color 0.3s ease;
+  border: 1px solid #33cccc;
+  border-radius: 3px;
+  width: 33.3333%;
+}
+.fourBoxes {
+  width: 50%;
+}
+/* .Demo:after {
+  content: '';
+  display: block;
+  margin-top: 0.8em;
+  height: 1px;
+} */
+.textCenter {
+  text-align: center;
+}
+/* Flexbox stuff */
+.flex-container {
+  /* border: 1px solid #000000; */
+  display: flex;
+  /* Row is default */
+  /* flex-flow: row; */
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* align-content: flex-start; */
+}
+/* .flex-cols-3 > .flex-item {
+  flex: 0 0 100%;
+} */
+.flex-item {
+  flex: 1;
+}

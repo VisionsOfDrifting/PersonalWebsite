@@ -90,7 +90,7 @@ const About = () => (
     </p> */}
     <div className="Grid Grid--full u-textCenter">
       <div className="Grid-cell Grid-cell-tech">
-        <div className="Demo">
+        <div className="Demo ">
           <h2>Technologies</h2>
           <h4>Languages. Libraries. Tools. Frameworks.</h4>
           <div className="Grid Grid--gutters-tech Grid--cols-3">
@@ -111,6 +111,11 @@ const About = () => (
                   <div className="Grid-cell Grid-cell-tech">
                     <div className="Demo">
                       <h6>Jquery</h6>
+                    </div>
+                  </div>
+                  <div className="Grid-cell Grid-cell-tech">
+                    <div className="Demo">
+                      <h6>Bootstrap</h6>
                     </div>
                   </div>
                 </div>
@@ -166,7 +171,7 @@ const About = () => (
               </div>
             </div>
             <div className="Grid-cell Grid-cell-tech">
-              <div className="Demo">
+              <div className="Demo ">
                 <h4>Other Tools</h4>
                 <div className="Grid Grid--gutters-tech Grid--cols-3">
                   <div className="Grid-cell Grid-cell-tech">

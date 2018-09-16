@@ -15,13 +15,16 @@ const Navigation = () => {
         </label>
         <ul>
           <li>
-            <Link id={window.location.pathname == '/' ? 'current' : ''} to="/">
+            <Link
+              // id={window.location.pathname == '/' ? 'current' : ''}
+              to="/"
+            >
               Home
             </Link>
           </li>
           <li>
             <Link
-              id={window.location.pathname == '/about' ? 'current' : ''}
+              // id={window.location.pathname == '/about' ? 'current' : ''}
               to="/about"
             >
               About
@@ -29,7 +32,7 @@ const Navigation = () => {
           </li>
           <li>
             <Link
-              id={window.location.pathname == '/contact' ? 'current' : ''}
+              // id={window.location.pathname == '/contact' ? 'current' : ''}
               to="/contact"
             >
               Contact
@@ -37,9 +40,9 @@ const Navigation = () => {
           </li>
           <li id="arrow-forward">
             <label
-              id={
-                matchPortfolio.test(window.location.pathname) ? 'current' : ''
-              }
+              // id={
+              //   matchPortfolio.test(window.location.pathname) ? 'current' : ''
+              // }
               htmlFor="menu-3"
             >
               Portfolio{' '}
@@ -52,7 +55,7 @@ const Navigation = () => {
             />
             <div className="menu" id="arrow-back">
               <label
-                id={!matchHome.test(window.location.pathname) ? 'current' : ''}
+                // id={!matchHome.test(window.location.pathname) ? 'current' : ''}
                 className="menu-toggle2"
                 htmlFor="menu-3"
               >
@@ -62,11 +65,11 @@ const Navigation = () => {
               <ul>
                 <li>
                   <Link
-                    id={
-                      window.location.pathname == '/portfolio/portfolio-index'
-                        ? 'current'
-                        : ''
-                    }
+                    // id={
+                    //   window.location.pathname == '/portfolio/portfolio-index'
+                    //     ? 'current'
+                    //     : ''
+                    // }
                     to="/portfolio/portfolio-index"
                   >
                     Portfolio Index
@@ -74,11 +77,11 @@ const Navigation = () => {
                 </li>
                 <li>
                   <Link
-                    id={
-                      window.location.pathname == '/portfolio/project1'
-                        ? 'current'
-                        : ''
-                    }
+                    // id={
+                    //   window.location.pathname == '/portfolio/project1'
+                    //     ? 'current'
+                    //     : ''
+                    // }
                     to="/portfolio/project1"
                   >
                     Mock Linkedin
@@ -86,11 +89,11 @@ const Navigation = () => {
                 </li>
                 <li>
                   <Link
-                    id={
-                      window.location.pathname == '/portfolio/project2'
-                        ? 'current'
-                        : ''
-                    }
+                    // id={
+                    //   window.location.pathname == '/portfolio/project2'
+                    //     ? 'current'
+                    //     : ''
+                    // }
                     to="/portfolio/project2"
                   >
                     Budget Trace

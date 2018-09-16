@@ -6,6 +6,7 @@ import Header from '../components/header'
 import Navigation from '../components/navagation'
 import Footer from '../components/footer'
 import 'font-awesome/css/font-awesome.min.css'
+import '../style/devicon-master/devicon.min.css'
 import './index.css'
 
 const Layout = ({ children, data }) => (

@@ -113,7 +113,11 @@
     /* flex-basis: 25%; */
     flex-basis: 40%;
   }
-  .flex-item-three,
+  .flex-item-three {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+  }
   .flex-item-bottom {
     flex-grow: 1;
     flex-shrink: 1;
@@ -142,14 +146,24 @@
     flex-shrink: 1;
     flex-basis: 100%;
   }
+  /* .flex-item-one,
+  .flex-item-two,
+  .flex-item-three, */
   .flex-item-one,
   .flex-item-two,
-  .flex-item-three,
+  .flex-item-three {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 40%;
+  }
   .flex-item-bottom {
     flex-grow: 1;
     flex-shrink: 1;
-    flex-basis: 0;
+    flex-basis: 25%;
   }
+  /* .flex-item-three > .flex-container > .Box {
+    width: 25%;
+  } */
 }
 
 /* @TODO Make the < 428px screens responsive */

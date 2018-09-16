@@ -47,7 +47,7 @@ const Contact = () => (
     <div className="row">
       <div className="columns">
         <p className="centeredP">
-          If you are interested in hiring me or would like to colaborate on
+          If you are interested in hiring me or would like to collaborate on
           present or future projects contact me. Feel free to send me an email
           or message me on Linkedin.
         </p>

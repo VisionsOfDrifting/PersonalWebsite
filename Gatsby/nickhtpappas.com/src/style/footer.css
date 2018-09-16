@@ -16,10 +16,20 @@ body {
   display: flex;
   flex-direction: column;
 }
+*/
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* flex: 1 0 auto; */
+  /* top: '3.5em'; */
+  min-height: 100vh;
+  /* calc(100vh - 3.5em); */
+}
 
 .content {
   flex: 1 0 auto;
-} */
+}
 
 .footer {
   /* position: absolute;
@@ -36,9 +46,11 @@ body {
   font-size: 14px;
   text-align: center;
   position: relative; */
-  margin-top: auto;
+  /* margin-top: auto;
   flex-shrink: 0;
-  position: absolute;
+  position: absolute; */
+  /* height: 50px; */
+  flex-shrink: 0;
 }
 /* 
 

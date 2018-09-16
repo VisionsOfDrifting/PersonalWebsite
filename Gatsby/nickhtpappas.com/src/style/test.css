@@ -1,24 +1,28 @@
 .Box {
   padding: 0.5em 0.5em 0;
-  margin-bottom: 0.5em;
-  background: rgba(51, 153, 204, 0.2);
-  transition: background-color 0.3s ease;
-  border: 1px solid #33cccc;
+  margin: 0.25em;
+  /* background: rgba(51, 153, 204, 0.2); */
+  /* transition: background-color 0.3s ease; */
+  /* border: 1px solid #33cccc; */
+  border: 2px solid rgb(12, 9, 10);
   border-radius: 3px;
   /* width: 33%; */
 }
 .Box:after {
   content: '';
   display: block;
-  margin-top: 0.8em;
+  margin-top: 0.5em;
   height: 1px;
+}
+.Box-outer-gutters {
+  /* margin-left: -0.25em; */
 }
 .Box-gutters {
   /* margin-left: -0.25em; */
+  margin: 0.2em;
 }
-.Box-gutters > i {
-  margin: 1rem;
-  font-size: 4rem;
+.Box-gutters .flex-item {
+  /* padding-left: 0.25em; */
 }
 .Box-react {
   padding-top: 1.2rem;
@@ -38,15 +42,6 @@
   position: relative;
   left: 15%;
 }
-/* .Box-gutters > i::after {
-  content: '';
-  display: block;
-  margin-top: 0.8em;
-  height: 1px;
-} */
-.Box-gutters .flex-item {
-  /* padding-left: 0.25em; */
-}
 .middleBox {
   padding: 0.8em 1em 0;
   margin-bottom: 0.5em;
@@ -56,15 +51,7 @@
   border-radius: 3px;
   width: 33.3333%;
 }
-.fourBoxes {
-  width: 50%;
-}
-/* .Demo:after {
-  content: '';
-  display: block;
-  margin-top: 0.8em;
-  height: 1px;
-} */
+
 .textCenter {
   text-align: center;
 }
@@ -87,12 +74,14 @@
 .flex-item-outer-4 {
   flex-grow: 1;
   flex-shrink: 1;
-  flex-basis: 33.3333%;
+  flex-basis: 30%;
 }
-.flex-item {
+.flex-item-one,
+.flex-item-two,
+.flex-item-three {
   flex-grow: 1;
   flex-shrink: 1;
-  flex-basis: 50%;
+  flex-basis: 40%;
 }
 .flex-item-bottom {
   flex-grow: 1;
@@ -101,11 +90,15 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .flex-item-outer {
+  .Box-google {
+    padding-top: 1.5rem;
+  }
+  .flex-item-outer-1,
+  .flex-item-outer-2 {
     flex-grow: 1;
     flex-shrink: 1;
     /* flex-basis: 100%; */
-    flex-basis: 50%;
+    flex-basis: 45%;
   }
   .flex-item-outer-3,
   .flex-item-outer-4 {
@@ -113,12 +106,43 @@
     flex-shrink: 1;
     flex-basis: 100%;
   }
-  .flex-item {
+  .flex-item-one,
+  .flex-item-two {
     flex-grow: 1;
     flex-shrink: 1;
     /* flex-basis: 25%; */
-    flex-basis: 50%;
+    flex-basis: 40%;
   }
+  .flex-item-three,
+  .flex-item-bottom {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+  }
+}
+
+@media only screen and (max-width: 427px) {
+  .Box-google {
+    padding-top: 1rem;
+  }
+  .firebase-container {
+    height: 67.5%;
+    width: 55%;
+    position: relative;
+    left: 22.5%;
+    top: 10%;
+  }
+  .flex-item-outer-1,
+  .flex-item-outer-2,
+  .flex-item-outer-3,
+  .flex-item-outer-4 {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100%;
+  }
+  .flex-item-one,
+  .flex-item-two,
+  .flex-item-three,
   .flex-item-bottom {
     flex-grow: 1;
     flex-shrink: 1;

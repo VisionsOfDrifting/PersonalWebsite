@@ -4,74 +4,74 @@ import '../style/test.css'
 
 const Test = () => (
   <div>
-    <div className="Box textCenter">
+    <div className=" textCenter">
       <h2>Technologies</h2>
       <h4>Languages. Libraries. Frameworks. Tools.</h4>
       <div className="flex-container">
-        <div className="flex-item-outer-1 Box Box-gutters">
+        <div className="flex-item-outer-1 Box Box-outer-gutters">
           <h4>Front End</h4>
           <div className="flex-container">
-            <div className="flex-item Box Box-react Box-gutters">
+            <div className="flex-item-one Box Box-react Box-gutters">
               {reactGraphic}
               <h6>React</h6>
             </div>
-            <div className="flex-item Box Box-redux Box-gutters">
+            <div className="flex-item-one Box Box-redux Box-gutters">
               {redux}
               <h6>Redux</h6>
             </div>
-            <div className="flex-item Box Box-gutters">
+            <div className="flex-item-one Box Box-gutters">
               {jquery}
               <h6>jQuery</h6>
             </div>
-            <div className="flex-item Box Box-gutters">
+            <div className="flex-item-one Box Box-gutters">
               {bootstrap}
               <h6>Bootstrap</h6>
             </div>
           </div>
         </div>
-        <div className="flex-item-outer-2 Box Box-gutters">
+        <div className="flex-item-outer-2 Box Box-outer-gutters">
           <h4>Back End</h4>
           <div className="flex-container">
-            <div className="flex-item Box Box-gutters">
+            <div className="flex-item-two Box Box-gutters">
               {node}
               <h6>Node</h6>
             </div>
-            <div className="flex-item Box Box-gutters">
+            <div className="flex-item-two Box Box-gutters">
               {express}
               <h6>Express</h6>
             </div>
-            <div className="flex-item Box Box-gutters">
+            <div className="flex-item-two Box Box-gutters">
               {php}
               <h6>PHP</h6>
             </div>
-            <div className="flex-item Box Box-gutters">
+            <div className="flex-item-two Box Box-gutters">
               {python}
               <h6>Python</h6>
             </div>
           </div>
         </div>
-        <div className="flex-item-outer-3 Box Box-gutters">
+        <div className="flex-item-outer-3 Box Box-outer-gutters">
           <h4>Databases</h4>
           <div className="flex-container">
-            <div className="flex-item Box Box-gutters">
+            <div className="flex-item-three Box Box-gutters">
               {mongo}
               <h6>MongoDB</h6>
             </div>
-            <div className="flex-item Box Box-gutters">
+            <div className="flex-item-three Box Box-gutters">
               {firebase}
               <h6>Firebase</h6>
             </div>
-            <div className="flex-item Box Box-gutters">
+            <div className="flex-item-three Box Box-gutters">
               {mysql}
               <h6>MySQL</h6>
             </div>
-            <div className="flex-item Box Box-gutters">
+            <div className="flex-item-three Box Box-gutters">
               {postgresql}
               <h6>PostgreSQL</h6>
             </div>
           </div>
         </div>
-        <div className="flex-item-outer-4 Box Box-gutters">
+        <div className="flex-item-outer-4 Box Box-outer-gutters">
           <h4>Other Tools</h4>
           <div className="flex-container">
             <div className="flex-item-bottom Box Box-gutters">

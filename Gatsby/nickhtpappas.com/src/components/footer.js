@@ -26,11 +26,11 @@ const Footer = () => {
         <div className="copyright-cell ">
           <h6>&copy; {new Date().getFullYear()} </h6>
         </div>
-        <div className="copyright-cell-name">
-          <div className="copyright-cell ">
+        <div className="copyright-cell-name copyright-cell">
+          <div className="copyright-cell-name-cell ">
             <h5>Nicholas</h5>
           </div>
-          <div className="copyright-cell ">
+          <div className="copyright-cell-name-cell ">
             <h5>Pappas</h5>
           </div>
         </div>

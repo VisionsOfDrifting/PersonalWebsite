@@ -49,15 +49,15 @@
   flex-grow: 2;
   flex-shrink: 2;
   flex-basis: 0;
-  border: 2px solid rgb(12, 9, 10);
-  border-radius: 3px;
+  /* border: 2px solid rgb(12, 9, 10); */
+  /* border-radius: 3px; */
 }
 .footer-cell-two {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0;
-  border: 2px solid rgb(12, 9, 10);
-  border-radius: 3px;
+  /* border: 2px solid rgb(12, 9, 10); */
+  /* border-radius: 3px; */
 }
 .copyright-cell-name {
   display: flex;
@@ -65,8 +65,9 @@
   justify-content: center;
 }
 .copyright-cell h5 {
-  border: 2px solid rgb(12, 9, 10);
-  border-radius: 3px;
+  /* border: 2px solid rgb(12, 9, 10);
+  border-radius: 3px; */
+  padding: 0 0.25rem;
   margin: 0rem;
 }
 .footer-cell-three h5 {
@@ -137,6 +138,7 @@
   .footer-cell-two {
     order: 3;
     display: flex;
+    flex-flow: column;
     justify-content: center;
     margin-top: 0.5rem;
   }
@@ -145,15 +147,13 @@
     flex-shrink: 1;
     flex-basis: 0;
   }
-  .copyright-cell h6 {
-    display: inline;
-    /* text-align: right; */
-    padding-right: 0.25rem;
+  .copyright-cell-name {
+    flex-flow: row;
+    margin: 0.3rem 0;
   }
-  .copyright-cell h5 {
-    /* display: inline; */
-    /* text-align: left; */
-    /* padding-left: 0.5rem; */
+  .copyright-cell h5,
+  .copyright-cell h6 {
+    margin: 0;
   }
   .footer-cell-three {
     order: 1;

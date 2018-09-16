@@ -1,0 +1,131 @@
+/* May not want the visited property */
+/* background: #11abb0; */
+.project-button,
+.project-button:visited {
+  font: 16px/30px 'opensans-bold', sans-serif;
+  /* display: inline-block; */
+  /* text-decoration: none; */
+  /* letter-spacing: 0.4em; */
+  background: #444;
+  color: #fff;
+  padding: 0.6em 1em;
+  margin: 2em 0.5em;
+  /* margin-bottom: 18px;
+  margin-top: 6px; */
+  /* border: none; */
+  /* The default cursor is auto. 
+     The browser will figure it out. */
+  /* cursor: pointer; */
+  /* height: auto; */
+
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+}
+/* I don't think these are of any benefit */
+/* .project-button:hover {
+  background: #3d4145;
+  color: #fff;
+} */
+/* 
+.project-button:active {
+  background: #3d4145;
+  color: #fff;
+} */
+
+.project-button:hover {
+  background: #fff;
+  color: #2b2b2b;
+}
+
+.Card {
+  padding: 0.5em 0.5em 0;
+  margin: 0.25em;
+  /* background: rgba(51, 153, 204, 0.2); */
+  /* transition: background-color 0.3s ease; */
+  /* border: 1px solid #33cccc; */
+  border: 2px solid rgb(12, 9, 10);
+  border-radius: 3px;
+  /* width: 45%; */
+  min-height: 55vh;
+}
+/* space-between property puts the first element
+at the begining of the flex container and the last element at the end. An after counts as an element. Use margins instead. */
+/* .Card:after {
+  content: '';
+  display: block;
+  margin-top: 0.8em;
+  height: 1px;
+} */
+
+.tech-box {
+  padding: 0.8em 1em 0.8em;
+  margin: 0.5em;
+  /* background: rgba(51, 153, 204, 0.2); */
+  /* transition: background-color 0.3s ease; */
+  /* border: 1px solid #33cccc; */
+  border: 2px solid rgb(12, 9, 10);
+  border-radius: 3px;
+}
+
+.portfolio-cards-container {
+  /* border: 1px solid #000000; */
+  display: flex;
+  /* Row is default */
+  flex-flow: row;
+  flex-wrap: wrap;
+  /* justify-content: space-evenly; */
+  /* align-content: flex-start; */
+}
+
+/* You can use a flex element as a flex container. 
+No need for extra divs if you don't want them */
+.portfolio-card {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 40%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.portfolio-card > h3 {
+  margin-top: 0.5em;
+}
+
+.tech-cell-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tech-cell {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-button-flex {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .portfolio-card {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100%;
+  }
+}

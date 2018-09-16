@@ -4,8 +4,8 @@ import Link from 'gatsby-link'
 import '../style/navbar.css'
 
 const Navigation = () => {
-  const matchHome = /\/.*?(?=\/)/
-  const matchPortfolio = /\/portfolio\//
+  // const matchHome = /\/.*?(?=\/)/
+  // const matchPortfolio = /\/portfolio\//
   return (
     <div>
       <input id="menu" name="menu" className="menu-checkbox" type="checkbox" />
@@ -38,7 +38,19 @@ const Navigation = () => {
               Contact
             </Link>
           </li>
-          <li id="arrow-forward">
+          <li>
+            <Link
+              // id={
+              //   window.location.pathname == '/portfolio/portfolio-index'
+              //     ? 'current'
+              //     : ''
+              // }
+              to="/portfolio/portfolio-index"
+            >
+              Portfolio Index
+            </Link>
+          </li>
+          {/* <li id="arrow-forward">
             <label
               // id={
               //   matchPortfolio.test(window.location.pathname) ? 'current' : ''
@@ -101,16 +113,7 @@ const Navigation = () => {
                 </li>
               </ul>
             </div>
-          </li>
-          <li
-            style={{
-              color: '#fff',
-            }}
-          >
-            {/* {window.location.href}
-            <br />
-            {window.location.pathname} */}
-          </li>
+          </li> */}
         </ul>
       </div>
     </div>

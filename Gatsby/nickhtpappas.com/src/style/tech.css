@@ -14,16 +14,16 @@
   margin-top: 0.5em;
   height: 1px;
 }
-.Box-outer-gutters {
-  /* margin-left: -0.25em; */
-}
+/* .Box-outer-gutters {
+  margin-left: -0.25em;
+} */
 .Box-gutters {
   /* margin-left: -0.25em; */
   margin: 0.2em;
 }
-.Box-gutters .flex-item {
-  /* padding-left: 0.25em; */
-}
+/* .Box-gutters .flex-item {
+  padding-left: 0.25em;
+} */
 .Box-react {
   padding-top: 1.2rem;
 }
@@ -121,6 +121,8 @@
   }
 }
 
+/* @TODO fix the firebase and mysql label alignment */
+
 @media only screen and (max-width: 427px) {
   .Box-google {
     padding-top: 1rem;
@@ -149,3 +151,5 @@
     flex-basis: 0;
   }
 }
+
+/* @TODO Make the < 428px screens responsive */

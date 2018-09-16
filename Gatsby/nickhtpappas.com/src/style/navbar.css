@@ -111,6 +111,7 @@ li#arrow-forward > label::after {
 }
 .menu ul li {
   border-bottom: 1px solid #666666;
+  margin: 8px 0px;
 }
 
 .menu ul li a,

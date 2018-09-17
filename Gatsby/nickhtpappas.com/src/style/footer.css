@@ -85,11 +85,12 @@
 }
 
 .footer-links a {
-  border: 2px solid rgb(12, 9, 10);
-  border-radius: 3px;
+  /* border: 2px solid rgb(12, 9, 10);
+  border-radius: 3px; */
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 0;
+  color: #11abb0;
   /* width: 500px; */
   /* display: inline-block;
   margin: 0;

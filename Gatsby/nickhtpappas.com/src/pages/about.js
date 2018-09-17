@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import Tech from '../components/tech'
+// import Tech from '../components/tech'
 
 const About = () => (
   <div>
@@ -14,6 +14,11 @@ const About = () => (
           my life. In college I spent most of my free time learning about
           different programming languages, tech stacks, and machine learning
           algorithms.
+        </p>
+        <p className="centeredP">
+          Since graduating I have been building websites for people. When I
+          don't have work I keep busy working on side projects of my own and
+          reading articles about web technologies.
         </p>
       </div>
       <div className="columns four">
@@ -91,7 +96,7 @@ const About = () => (
       become widespread in the next few years as they update the technology.
     </p> */}
 
-    <Tech />
+    {/* <Tech /> */}
   </div>
 )
 

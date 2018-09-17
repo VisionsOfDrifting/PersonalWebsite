@@ -920,19 +920,19 @@ pre tt:after {
 }
 
 /* Links */
-a,
-a:visited {
+a {
   text-decoration: none;
   outline: 0;
-  color: #11abb0;
+  color: #1e90ff;
+  /* #11abb0; */
+  /* #1E90FF; */
 
   -webkit-transition: color 0.3s ease-in-out;
   -moz-transition: color 0.3s ease-in-out;
   -o-transition: color 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
 }
-a:hover,
-a:focus {
+a:hover {
   color: #313131;
 }
 
@@ -972,7 +972,7 @@ a:focus {
   background: rgba(0, 0, 0, 0.1);
   position: absolute;
   right: 20%;
-  margin-right: -1.8rem;
+  margin-right: -2.8rem;
   /* left: 35%;
   margin-left: -0.6rem; */
   /* top: 0; */
@@ -996,7 +996,7 @@ a:focus {
   /* May be able to edit left and margin-left */
   right: 20%;
   top: -0.8rem;
-  margin-right: -2.66rem;
+  margin-right: -3.66rem;
   transform: rotate(45deg);
 }
 /* .timeline-ico2 {
@@ -1261,11 +1261,11 @@ input[type='button'] {
   cursor: pointer;
   height: auto;
 
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;

@@ -47,7 +47,8 @@ const Navigation = () => {
               // }
               to="/portfolio/portfolio-index"
             >
-              Portfolio Index
+              Portfolio
+              {/* Index */}
             </Link>
           </li>
           {/* <li id="arrow-forward">

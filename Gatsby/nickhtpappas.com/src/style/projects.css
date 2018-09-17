@@ -18,11 +18,11 @@
   /* cursor: pointer; */
   /* height: auto; */
 
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -41,20 +41,26 @@
 } */
 
 .project-button:hover {
-  background: #fff;
+  /* background: rgba(51, 153, 204, 0.1); */
+  background: transparent;
+  /* #fff; */
   color: #2b2b2b;
 }
 
 .Card {
   padding: 0.5em 0.5em 0;
   margin: 0.25em;
-  /* background: rgba(51, 153, 204, 0.2); */
-  /* transition: background-color 0.3s ease; */
+  background: rgba(51, 153, 204, 0.2);
+  transition: background-color 0.3s ease-in-out;
   /* border: 1px solid #33cccc; */
-  border: 2px solid rgb(12, 9, 10);
+  border: 2px solid rgba(51, 153, 204, 1);
+  /* rgb(12, 9, 10); */
   border-radius: 3px;
   /* width: 45%; */
   min-height: 55vh;
+}
+.Card:hover {
+  background: rgba(51, 153, 204, 0.6);
 }
 /* space-between property puts the first element
 at the begining of the flex container and the last element at the end. An after counts as an element. Use margins instead. */
@@ -68,10 +74,11 @@ at the begining of the flex container and the last element at the end. An after 
 .tech-box {
   padding: 0.8em 1em 0.8em;
   margin: 0.5em;
-  /* background: rgba(51, 153, 204, 0.2); */
+  background: rgba(51, 153, 204, 0.4);
   /* transition: background-color 0.3s ease; */
   /* border: 1px solid #33cccc; */
-  border: 2px solid rgb(12, 9, 10);
+  border: 1px solid rgba(51, 153, 204, 1);
+  /* rgb(12, 9, 10); */
   border-radius: 3px;
 }
 

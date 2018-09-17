@@ -27,17 +27,22 @@ const Contact = () => (
         <h4>Social Media Profiles</h4>
         <ul className="social-links">
           <li>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/nicholas-pappas-044189130/">
               <i className="fa fa-linkedin" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="https://github.com/VisionsOfDrifting">
               <i className="fa fa-github" />
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="https://codepen.io/VisionsOfDrifting/#">
+              <i className="fa fa-codepen" />
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/Dreams_Of_AI">
               <i className="fa fa-twitter" />
             </a>
           </li>
@@ -46,7 +51,14 @@ const Contact = () => (
     </div>
     <div className="row">
       <div className="columns">
-        <p className="centeredP">
+        <p
+          css={{
+            textAlign: 'center',
+            '@media only screen and (max-width: 768px)': {
+              textAlign: 'justify',
+            },
+          }}
+        >
           If you are interested in hiring me or would like to collaborate on
           present or future projects contact me. Feel free to send me an email
           or message me on Linkedin.

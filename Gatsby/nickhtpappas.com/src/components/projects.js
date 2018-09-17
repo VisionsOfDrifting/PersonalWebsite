@@ -37,10 +37,10 @@ const Projects = () => (
         </div>
         <div className="project-container ">
           <a href="#" className="project-button-flex  project-button">
-            <i className="fa fa-download" /> Live Demo
+            <i className="fa fa-link" /> Live Demo
           </a>
           <a href="#" className="project-button-flex project-button">
-            <i className="fa fa-download" /> View Code
+            <i className="fa fa-github" /> View Code
           </a>
         </div>
       </div>
@@ -66,11 +66,14 @@ const Projects = () => (
           </div>
         </div>
         <div className="project-container ">
-          <a href="#" className="project-button-flex  project-button">
+          {/* <a href="#" className="project-button-flex  project-button">
             <i className="fa fa-download" /> Live Demo
-          </a>
-          <a href="#" className="project-button-flex project-button">
-            <i className="fa fa-download" /> View Code
+          </a> */}
+          <a
+            href="https://github.com/VisionsOfDrifting/PersonalWebsite/tree/master/Gatsby/nickhtpappas.com"
+            className="project-button-flex project-button"
+          >
+            <i className="fa fa-github" /> View Code
           </a>
         </div>
       </div>
@@ -102,14 +105,17 @@ const Projects = () => (
         </div>
         <div className="project-container ">
           <a href="#" className="project-button-flex  project-button">
-            <i className="fa fa-download" /> Live Demo
+            <i className="fa fa-link" /> Live Demo
           </a>
-          <a href="#" className="project-button-flex project-button">
-            <i className="fa fa-download" /> View Code
+          <a
+            href="https://github.com/VisionsOfDrifting/CMPS115"
+            className="project-button-flex project-button"
+          >
+            <i className="fa fa-github" /> View Code
           </a>
         </div>
       </div>
-      <div className="portfolio-card Card textCenter">
+      {/* <div className="portfolio-card Card textCenter">
         <h3>TODO To Done</h3>
         <h4>You could possibly put an image here</h4>
         <div>
@@ -132,10 +138,49 @@ const Projects = () => (
         </div>
         <div className="project-container ">
           <a href="#" className="project-button-flex  project-button">
-            <i className="fa fa-download" /> Live Demo
+            <i className="fa fa-link" /> Live Demo
           </a>
           <a href="#" className="project-button-flex project-button">
-            <i className="fa fa-download" /> View Code
+            <i className="fa fa-github" /> View Code
+          </a>
+        </div>
+      </div> */}
+      <div className="portfolio-card Card textCenter">
+        <h3>Slug Grades</h3>
+        <h4>You could possibly put an image here</h4>
+        <div>
+          {' '}
+          <h4>Technologies Used</h4>
+          <div className="tech-cell-container">
+            <div className="tech-cell">
+              <div className="tech-box">Node.js</div>
+            </div>
+            <div className="tech-cell">
+              <div className="tech-box">Firebase</div>
+            </div>
+            <div className="tech-cell">
+              <div className="tech-box">HTML</div>
+            </div>
+            <div className="tech-cell">
+              <div className="tech-box">CSS</div>
+            </div>
+            <div className="tech-cell">
+              <div className="tech-box">JavaScript</div>
+            </div>
+          </div>
+        </div>
+        <div className="project-container ">
+          <a
+            href="https://sluggrades-56116.firebaseapp.com/"
+            className="project-button-flex  project-button"
+          >
+            <i className="fa fa-link" /> Live Demo
+          </a>
+          <a
+            href="https://github.com/VisionsOfDrifting/CMPS_183"
+            className="project-button-flex project-button"
+          >
+            <i className="fa fa-github" /> View Code
           </a>
         </div>
       </div>

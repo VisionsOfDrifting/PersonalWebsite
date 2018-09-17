@@ -8,16 +8,16 @@ const Footer = () => {
       <div className="footer-cell-one ">
         <h6>Social</h6>
         <div className="footer-links">
-          <a href="#">
+          <a href="https://www.linkedin.com/in/nicholas-pappas-044189130/">
             <i className="fa fa-linkedin" />
           </a>
-          <a href="#">
+          <a href="https://github.com/VisionsOfDrifting">
             <i className="fa fa-github" />
           </a>
-          <a href="#">
+          <a href="https://codepen.io/VisionsOfDrifting/#">
             <i className="fa fa-codepen" />
           </a>
-          <a href="#">
+          <a href="https://twitter.com/Dreams_Of_AI">
             <i className="fa fa-twitter" />
           </a>
         </div>
@@ -38,18 +38,18 @@ const Footer = () => {
       <div className="footer-cell-three ">
         <h6>Site</h6>
         <div className="footer-links">
-          <a href="#">
+          <Link to="/">
             <h5>Home</h5>
-          </a>
-          <a href="#">
+          </Link>
+          <Link to="/about">
             <h5>About</h5>
-          </a>
-          <a href="#">
+          </Link>
+          <Link to="/contact">
             <h5>Contact</h5>
-          </a>
-          <a href="#">
+          </Link>
+          <Link to="/portfolio/portfolio-index">
             <h5>Portfolio</h5>
-          </a>
+          </Link>
         </div>
       </div>
     </footer>

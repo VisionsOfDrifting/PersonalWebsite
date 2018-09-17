@@ -1,0 +1,45 @@
+.index-wrap {
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-flow: column;
+  align-items: center;
+  /* justify-content: space-between; */
+  text-align: center;
+}
+
+.index-cell {
+  /* border: 1px solid #333333; */
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 50%;
+}
+
+.index-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+
+.endP {
+  margin-bottom: 0;
+  margin: 0.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .index-wrap {
+    text-align: justify;
+  }
+  .index-row {
+    flex-flow: column;
+  }
+  .endP {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 427px) {
+  .button {
+    font-size: 14px;
+  }
+}

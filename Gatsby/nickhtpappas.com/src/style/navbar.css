@@ -110,7 +110,7 @@ li#arrow-forward > label::after {
   border-top: 1px solid #666666;
 }
 .menu ul li {
-  border-bottom: 1px solid #666666;
+  border-bottom: 1px solid #999999;
   margin: 8px 0px;
 }
 
@@ -122,10 +122,13 @@ li#arrow-forward > label::after {
   line-height: 60px;
   text-decoration: none;
   color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 .menu ul li a:hover,
 .menu ul li label:hover {
-  color: #bbbbbb;
+  color: #11abb0;
+  /* #1e90ff; */
 }
 
 /* hide inputs */

@@ -41,10 +41,59 @@ const Projects = () => (
           </div>
         </div>
         <div className="project-container ">
-          {/* <a href="#" className="project-button-flex  project-button">
+          <a
+            href="https://powerful-escarpment-50863.herokuapp.com/"
+            className="project-button-flex  project-button"
+          >
             <i className="fa fa-link" /> Live Demo
-          </a> */}
-          <a href="#" className="project-button-flex project-button">
+          </a>
+          <a
+            href="https://bitbucket.org/VisionsOfDrifting/mock-linkedin/src/master/"
+            className="project-button-flex project-button"
+          >
+            <i className="fa fa-github" /> View Code
+          </a>
+        </div>
+      </div>
+      <div className="portfolio-card Card textCenter">
+        <h3>IdeaStore</h3>
+        <h6>
+          Share and store your ideas! Users login with google, can post ideas,
+          and can comment on other ideas.
+        </h6>
+        {/* <h4>You could possibly put an image here</h4> */}
+        <div>
+          {' '}
+          <h4>Technologies Used</h4>
+          <div className="tech-cell-container">
+            <div className="tech-cell">
+              <div className="tech-box">Node.js</div>
+            </div>
+            <div className="tech-cell">
+              <div className="tech-box">Express.js</div>
+            </div>
+            <div className="tech-cell">
+              <div className="tech-box">MongoDB</div>
+            </div>
+            <div className="tech-cell">
+              <div className="tech-box">Handlebars.js</div>
+            </div>
+            <div className="tech-cell">
+              <div className="tech-box">Materialize CSS</div>
+            </div>
+          </div>
+        </div>
+        <div className="project-container ">
+          <a
+            href="https://pacific-lake-95761.herokuapp.com/"
+            className="project-button-flex  project-button"
+          >
+            <i className="fa fa-link" /> Live Demo
+          </a>
+          <a
+            href="https://github.com/VisionsOfDrifting/IdeaStore"
+            className="project-button-flex project-button"
+          >
             <i className="fa fa-github" /> View Code
           </a>
         </div>
@@ -159,49 +208,6 @@ const Projects = () => (
           </a>
         </div>
       </div> */}
-      <div className="portfolio-card Card textCenter">
-        <h3>IdeaStore</h3>
-        <h6>
-          Share and store your ideas! Users login with google, can post ideas,
-          and can comment on other ideas.
-        </h6>
-        {/* <h4>You could possibly put an image here</h4> */}
-        <div>
-          {' '}
-          <h4>Technologies Used</h4>
-          <div className="tech-cell-container">
-            <div className="tech-cell">
-              <div className="tech-box">Node.js</div>
-            </div>
-            <div className="tech-cell">
-              <div className="tech-box">Express.js</div>
-            </div>
-            <div className="tech-cell">
-              <div className="tech-box">MongoDB</div>
-            </div>
-            <div className="tech-cell">
-              <div className="tech-box">Handlebars.js</div>
-            </div>
-            <div className="tech-cell">
-              <div className="tech-box">Materialize CSS</div>
-            </div>
-          </div>
-        </div>
-        <div className="project-container ">
-          <a
-            href="https://pacific-lake-95761.herokuapp.com/"
-            className="project-button-flex  project-button"
-          >
-            <i className="fa fa-link" /> Live Demo
-          </a>
-          <a
-            href="https://github.com/VisionsOfDrifting/IdeaStore"
-            className="project-button-flex project-button"
-          >
-            <i className="fa fa-github" /> View Code
-          </a>
-        </div>
-      </div>
     </div>
   </div>
 )

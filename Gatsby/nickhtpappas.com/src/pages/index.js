@@ -12,7 +12,7 @@ const IndexPage = () => (
       <p className="">
         I am a recent college graduate. I have been freelancing building
         websites since I graduated from UC, Santa Cruz. Currently I am seeking
-        fulltime employement as a Web Developer in the Los Angeles area.
+        full-time employment as a Web Developer in the Los Angeles area.
       </p>
     </div>
     <div className="index-cell">

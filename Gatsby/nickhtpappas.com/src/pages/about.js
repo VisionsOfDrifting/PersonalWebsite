@@ -22,7 +22,14 @@ const About = () => (
         </p>
       </div>
       <div className="columns four">
-        <h4>(Picture goes here)</h4>
+        <div className="centeredImg">
+          <img
+            // className="centeredImg"
+            src="../website_resources/scaled.jpg"
+            alt="Profile picture"
+          />
+        </div>
+        {/* <h4>(Picture goes here)</h4> */}
       </div>
     </div>
     <div className="row">

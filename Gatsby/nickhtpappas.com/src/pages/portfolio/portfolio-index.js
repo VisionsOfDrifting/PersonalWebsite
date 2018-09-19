@@ -13,9 +13,9 @@ const Portfolio = () => (
     <div className="row">
       <h2>Portfolio</h2>
       <p className="centeredP">
-        These are some of my completed projects that I've hosted on this server
-        with live demos. Feel free to try them out and look at the source code.
-        Other projects I've completed are on my github as well.
+        These are some of my completed projects with live demos. Feel free to
+        try them out and look at the source code. Other projects I've completed
+        are on my github as well.
       </p>
     </div>
     <Projects />

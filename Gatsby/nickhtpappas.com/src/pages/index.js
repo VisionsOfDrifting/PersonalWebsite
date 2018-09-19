@@ -21,7 +21,10 @@ const IndexPage = () => (
           <p className=""> Feel free to grab a copy of my resume. </p>
         </div>
         <div className="index-cell ">
-          <a href="#" className="button center">
+          <a
+            href="../website_resources/NicholasPappas_Resume.pdf"
+            className="button center"
+          >
             <i className="fa fa-download" /> View / Download Resume
           </a>
         </div>

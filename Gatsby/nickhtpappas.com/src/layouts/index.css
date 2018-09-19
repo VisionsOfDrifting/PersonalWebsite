@@ -1146,7 +1146,7 @@ a:hover {
     width: 3.6rem;
     line-height: 3.6rem;
     right: 5rem;
-    margin-right: -2.8rem;
+    margin-right: -3.9rem;
     font-size: 1.5rem;
   }
   .timeline-ico2 {
@@ -1186,6 +1186,12 @@ a:hover {
 .center {
   /* width: 80%; */
   text-align: center;
+}
+
+.centeredImg {
+  /* margin: 0 auto; */
+  display: flex;
+  justify-content: center;
 }
 
 .justify-center {

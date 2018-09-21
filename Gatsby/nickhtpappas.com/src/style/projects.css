@@ -40,12 +40,17 @@
   color: #fff;
 } */
 
-.project-button:hover {
+body.hasHover .project-button:hover {
   /* background: rgba(51, 153, 204, 0.1); */
   background: transparent;
   /* #fff; */
   color: #2b2b2b;
 }
+
+/* .project-button:hover {
+  background: transparent;
+  color: #2b2b2b;
+} */
 
 .Card {
   padding: 0.5em 0.5em 0;
@@ -59,9 +64,13 @@
   /* width: 45%; */
   min-height: 55vh;
 }
-.Card:hover {
+body.hasHover .Card:hover {
   background: rgba(51, 153, 204, 0.6);
 }
+/* .Card:hover {
+  background: rgba(51, 153, 204, 0.6);
+} */
+
 /* space-between property puts the first element
 at the begining of the flex container and the last element at the end. An after counts as an element. Use margins instead. */
 /* .Card:after {

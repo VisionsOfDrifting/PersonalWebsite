@@ -7,6 +7,7 @@ import Navigation from '../components/navagation'
 import Footer from '../components/footer'
 import 'font-awesome/css/font-awesome.min.css'
 import '../style/devicon-master/devicon.min.css'
+
 import './index.css'
 
 const Layout = ({ children, data }) => (
@@ -61,6 +62,35 @@ Layout.propTypes = {
 }
 
 export default Layout
+
+function watchForHover() {
+  let hasHoverClass = false
+  let screenWasTouched = false
+  const container = document.body
+
+  function enableHover() {
+    if (screenWasTouched) return
+    if (hasHoverClass) return
+
+    container.className += ' hasHover'
+    hasHoverClass = true
+  }
+
+  function disableHover() {
+    if (!hasHoverClass) return
+
+    container.className = container.className.replace(' hasHover', '')
+    screenWasTouched = true
+    hasHoverClass = false
+  }
+
+  document.addEventListener('touchstart', disableHover, true)
+  document.addEventListener('mousemove', enableHover, true)
+
+  enableHover()
+}
+
+watchForHover()
 
 export const query = graphql`
   query SiteTitleQuery {

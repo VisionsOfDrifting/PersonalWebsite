@@ -110,9 +110,13 @@
   font-size: 0.75rem;
 }
 
-.footer a:hover {
+body.hasHover .footer a:hover {
   color: #fff;
 }
+
+/* .footer a:hover {
+  color: #fff;
+} */
 
 @media only screen and (max-width: 768px) {
   .footer-links a {

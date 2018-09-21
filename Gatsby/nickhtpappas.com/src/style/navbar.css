@@ -125,11 +125,17 @@ li#arrow-forward > label::after {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-.menu ul li a:hover,
+
+body.hasHover .menu ul li a:hover,
 .menu ul li label:hover {
   color: #11abb0;
   /* #1e90ff; */
 }
+
+/* .menu ul li a:hover,
+.menu ul li label:hover {
+  color: #11abb0;
+} */
 
 /* hide inputs */
 .menu-checkbox {

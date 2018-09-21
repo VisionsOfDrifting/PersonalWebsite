@@ -60,37 +60,38 @@ const Layout = ({ children, data }) => (
 Layout.propTypes = {
   children: PropTypes.func,
 }
+if (typeof document !== `undefined`) {
+  function watchForHover() {
+    let hasHoverClass = false
+    let screenWasTouched = false
+    const container = document.body
 
-export default Layout
+    function enableHover() {
+      if (screenWasTouched) return
+      if (hasHoverClass) return
 
-function watchForHover() {
-  let hasHoverClass = false
-  let screenWasTouched = false
-  const container = document.body
+      container.className += ' hasHover'
+      hasHoverClass = true
+    }
 
-  function enableHover() {
-    if (screenWasTouched) return
-    if (hasHoverClass) return
+    function disableHover() {
+      if (!hasHoverClass) return
 
-    container.className += ' hasHover'
-    hasHoverClass = true
+      container.className = container.className.replace(' hasHover', '')
+      screenWasTouched = true
+      hasHoverClass = false
+    }
+
+    document.addEventListener('touchstart', disableHover, true)
+    document.addEventListener('mousemove', enableHover, true)
+
+    enableHover()
   }
 
-  function disableHover() {
-    if (!hasHoverClass) return
-
-    container.className = container.className.replace(' hasHover', '')
-    screenWasTouched = true
-    hasHoverClass = false
-  }
-
-  document.addEventListener('touchstart', disableHover, true)
-  document.addEventListener('mousemove', enableHover, true)
-
-  enableHover()
+  watchForHover()
 }
 
-watchForHover()
+export default Layout
 
 export const query = graphql`
   query SiteTitleQuery {
